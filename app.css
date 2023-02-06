@@ -1,0 +1,61 @@
+  body {
+	      font-family: Arial, sans-serif;
+	          background-color: mediumpurple;
+		    }
+		      .container {
+			          width: 800px;
+				      margin: 0 auto;
+				          text-align: center;
+					    }
+					      h1, h2, h3 {
+						          color: #333;
+							    }
+							      .courses {
+								          display: flex;
+									      flex-wrap: wrap;
+									          justify-content: center;
+										      margin-top: 50px;
+										        }
+											  .course {
+												      width: 33%;
+												          padding: 20px;
+													      text-align: center;
+													          background-color: #f5f5f5;
+														      border-radius: 10px;
+														          margin: 20px;
+															    }
+															      .course h2 {
+																          margin-top: 0;
+																	    }
+																	      .questions {
+																		          margin-top: 50px;
+																			    }
+																			      .question {
+																				          padding: 20px;
+																					      background-color: #fff;
+																					          border: 1px solid #ccc;
+																						      border-radius: 10px;
+																						          box-shadow: 2px 2px 5px #ccc;
+																							      margin-bottom: 20px;
+																							          text-align: left;
+																								    }
+																								      .question h3 {
+																									          margin-top: 0;
+																										    }
+																										      .question p {
+																											          margin-bottom: 0;
+																												    }
+																												      a {
+																													          color: #333;
+																														      text-decoration: none;
+																														        }
+																															  a:hover {
+																																      text-decoration: underline;
+																																        }
+																																	  .answer {
+																																		      display: none;
+																																		        }
+																																			  
+																																			  .answer.active {
+																																				      display: block;
+																																				        }  
